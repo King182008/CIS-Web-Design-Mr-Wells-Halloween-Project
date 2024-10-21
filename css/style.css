@@ -10,6 +10,12 @@ body {
     height: 100vh;
 }
 
+.logo {
+    margin: 0;
+    font-size: 1.45em;
+    color: #fff;
+}
+
 ul {
     list-style: none;
 }
@@ -34,4 +40,22 @@ a {
     text-transform: uppercase;
     text-align: center;
     display: block;
+}
+
+.main-nav a {
+    color: #96e194;
+    font-size: 0.99em;
+}
+
+.main-nav a:hover {
+    color: #ff9505;
+}
+
+.header {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 1px solid #ff9505;
+    background-color: #ff950588;
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75):
+    border-radius: 5px
 }
