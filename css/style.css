@@ -1,3 +1,23 @@
+/******** Fonts ************
+font-family: "Nosifer", sans-serif;
+font-family: "Butcherman", system-ui;
+font-family: "Rubik Wet Paint", system-ui;
+font-family: "Amatic SC", sans-serif;
+font-family: "Barrio", system-ui;
+*********** End Fonts **********/
+
+/******** Color pallet ***********
+        Use coolors.co
+2B4250 - Dark Blue
+9F410C - Brown
+FCBF32 - Gold
+192227 - Black
+91AEBC - light blue
+BF3100 - Blood Red
+********** End of Color pallet *******/
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Barrio&family=Butcherman&family=Nosifer&family=Rubik+Wet+Paint&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,14 +26,20 @@
 }
 
 body {
-    background-image: linear-gradient(#1c0125, #1c0125aa);
+    font-family: "Rubik Wet Paint", system-ui;
+    background-image: linear-gradient(#91AEBC, #2B4250);
     height: 100vh;
 }
 
 .logo {
+    font-family: "Nosifer", sans-serif;
     margin: 0;
     font-size: 1.45em;
-    color: #fff;
+    color: #BF3100;
+}
+
+.logo a {
+    color: #BF3100;
 }
 
 ul {
@@ -38,18 +64,19 @@ a {
 
 .main-nav a {
     color: #96e194;
-    font-size: 0.99em;
+    font-size: 1.3em;
+    font-family: "Barrio", system-ui;
 }
 
 .main-nav a:hover {
-    color: #ff9505;
+    color: #192227;
 }
 
 .header {
     padding-top: .5em;
     padding-bottom: .5em;
-    border: 1px solid #ff9505;
-    background-color: #ff950588;
+    border: 1px solid ;
+    background-color: #FCBF32;
     box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
     border-radius: 5px;
 }
@@ -79,6 +106,14 @@ img {
 
 }
 
+#Hero {
+    background-image: url(../images/2151827517.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    min-height: 800px;
+}
+
 /*-------- End of Tablet media Query---------*/
 
 
@@ -91,3 +126,13 @@ img {
     }
 }
 /*------- End Desktop Media Query-------*/
+
+/*------- Large Display Query---------*/
+@media screen and (min-width: 1850px) {
+
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+/*------- End Large Display Media Query-------*/
