@@ -95,32 +95,32 @@ img {
 
 .one {
     min-height: 250px;
-    background-color: #192227;
+    background-color: #BF3100;
 }
 
 .two {
     min-height: 250px;
-    background-color: #2B4250;
+    background-color: #96e194;
 }
 
 .three {
     min-height: 250px;
-    background-color: #192227;
+    background-color: #cb3189;
 }
 
 .four {
     min-height: 250px;
-    background-color: #2B4250;
+    background-color: #0054ba;
 }
 
 .five {
     min-height: 250px;
-    background-color: #192227;
+    background-color: #cb3189;
 }
 
 .six {
     min-height: 250px;
-    background-color: #2B4250;
+    background-color: #96e194;
 }
 
 .seven {
@@ -128,7 +128,7 @@ img {
     background-color: #192227;
 }
 
-/*----- Tablet Media Query-------*/
+/*----- Tablet Media Query -------*/
 @media screen and (min-width: 769px) {
 
     .header,
@@ -170,18 +170,18 @@ img {
     text-align: center;
 }
 
-    #hero {
-        min-height: 500px;
-    }
+#hero {
+    min-height: 500px;
+}
 
-    .hero h2 {
-        font-size: 2.1rem;
-    }
+.hero h2 {
+    font-size: 2.1rem;
+}
 
-    .container {
-        grid-template-columns: 1fr 1fr;
-        grid-auto-rows: minmax(100px, auto);
-    }
+.container {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+}
 
 
 /*-------- End of Tablet media Query---------*/
