@@ -81,6 +81,34 @@ a {
     border-radius: 5px;
 }
 
+#hero {
+    background-image: url(../images/2151827517.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    min-height: 800px;
+}
+
+.hero {
+    display: #BF3100;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h2 {
+    color: #BF3100;
+    font-size: 1.8rem;
+    text-shadow: 2px 2px 6px #fff;
+    font-family: "Nosifer", sans-serif;
+    text-align: center;
+}
+
+#hero {
+    min-height: 800px;
+}
+
+    
+
 /*------- Responsive images ------------ */
 img {
     width: 100%;
@@ -105,7 +133,7 @@ img {
 
 .three {
     min-height: 250px;
-    background-color: #cb3189;
+    background-color: #000;
 }
 
 .four {
@@ -120,7 +148,7 @@ img {
 
 .six {
     min-height: 250px;
-    background-color: #96e194;
+    background-color: #000;
 }
 
 .seven {
@@ -145,46 +173,53 @@ img {
             max-width: 1150px;
         }
     }
+    #hero {
+        min-height: 500px;
+    }
+    
+    .hero h2 {
+        font-size: 2.1rem;
+    }
+    
+    .container {
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: minmax(100px, auto);
+    }
+    
+    .one {
+        grid-column: 1 / 3;
+    }
+    
+    .two {
+        grid-column: 1/2;
+    }
+    
+    .three {
+        grid-column: 2/3;
+    }
+    
+    .four {
+        grid-column: 1/3;
+    }
+    
+    .five {
+        grid-column: 1/3;
+    }
+    
+    .six {
+        grid-column: 1/2;
+    }
+    
+    .seven {
+        grid-column: 2/3;
+    }
+    
+    
 
-}
+} 
 
-#hero {
-    background-image: url(../images/2151827517.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: bottom;
-    min-height: 800px;
-}
+/******** Closing Tablet Meida Query ***********/
 
-.hero {
-    display: #BF3100;
-    align-items: center;
-    justify-content: center;
-}
-
-.hero h2 {
-    color: #BF3100;
-    font-size: 1.8rem;
-    text-shadow: 2px 2px 6px #fff;
-    font-family: "Nosifer", sans-serif;
-    text-align: center;
-}
-
-#hero {
-    min-height: 500px;
-}
-
-.hero h2 {
-    font-size: 2.1rem;
-}
-
-.container {
-    grid-template-columns: 1fr 1fr;
-    grid-auto-rows: minmax(100px, auto);
-}
-
-
-/*-------- End of Tablet media Query---------*/
 
 
 /*------- Desktop Media Query---------*/
@@ -193,6 +228,38 @@ img {
     .header {
         flex-direction: row;
         justify-content: space-between;
+    }
+
+    .container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .one {
+        grid-column: 1 / 4;
+    }
+
+    .two {
+        grid-column: 1 / 3;
+    }
+
+    .three {
+        grid-column: 3 / 4;
+    }
+
+    .four {
+        grid-column: 1 / 4;
+    }
+
+    .five {
+        grid-column: 1 / 4;
+    }
+
+    .six {
+        grid-column: 1 / 2;
+    }
+
+    .seven {
+        grid-column: 2 / 4;
     }
 }
 /*------- End Desktop Media Query-------*/
@@ -206,3 +273,11 @@ img {
     }
 }
 /*------- End Large Display Media Query-------*/
+
+footer {
+    margin-top: o;
+    padding: 10%;
+    background-color: #ff9505;
+    color: #192227;
+    min-height: 200px;
+}
