@@ -86,11 +86,11 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: bottom;
-    min-height: 800px;
+    min-height: 300px;
 }
 
 .hero {
-    display: #BF3100;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -103,8 +103,15 @@ a {
     text-align: center;
 }
 
-#hero {
-    min-height: 800px;
+.two {
+    padding: 10%;
+    font-size: 1.4em;
+}
+
+.two h2,
+.two p {
+    font-family: "Amatic SC", sans-serif;
+
 }
 
     
@@ -123,12 +130,12 @@ img {
 
 .one {
     min-height: 250px;
-    background-color: #BF3100;
+    background-image: linear-gradient(#000, #BF3100, #ff9505, #ff0);
 }
 
 .two {
     min-height: 250px;
-    background-color: #96e194;
+    background-image: linear-gradient(#9dffaa, #000);
 }
 
 .three {
@@ -142,12 +149,12 @@ img {
 
 .four {
     min-height: 250px;
-    background-color: #0054ba;
+    background-image: linear-gradient(#0054ba, #ffc0cb);
 }
 
 .five {
     min-height: 250px;
-    background-color: #cb3189;
+    background-image: linear-gradient(#cb3189, #512da8);
 }
 
 .six {
