@@ -132,8 +132,12 @@ img {
 }
 
 .three {
-    min-height: 250px;
-    background-color: #000;
+    min-height: 450px;
+    background-image: url(../images/2151827499.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
 }
 
 .four {
@@ -147,8 +151,12 @@ img {
 }
 
 .six {
-    min-height: 250px;
-    background-color: #000;
+    min-height: 450px;
+    background-image: url(../images/2151827618.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
 }
 
 .seven {
