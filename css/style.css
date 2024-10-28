@@ -103,16 +103,43 @@ a {
     text-align: center;
 }
 
-.two {
+.two ,
+.one  {
     padding: 10%;
     font-size: 1.4em;
 }
 
 .two h2,
-.two p {
+.two p,
+.one h2,
+.one p,
+.four h2,
+.four p {
     font-family: "Amatic SC", sans-serif;
-
+    text-align: center;
 }
+
+.four {
+    padding: 5%;
+}
+
+.four {
+    font-size: 1.4rem;
+}
+
+
+.two img {
+    width: 25%;
+    float: right;
+}
+
+.one img {
+    width: 25%;
+    float: left
+}
+
+
+
 
     
 
@@ -135,7 +162,7 @@ img {
 
 .two {
     min-height: 250px;
-    background-image: linear-gradient(#9dffaa, #000);
+    background-image: linear-gradient(#9dffaa, #002);
 }
 
 .three {
