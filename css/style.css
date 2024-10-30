@@ -114,28 +114,54 @@ a {
 .one h2,
 .one p,
 .four h2,
-.four p {
+.four p,
+.five h2,
+.five p,
+.seven h2,
+.seven p {
     font-family: "Amatic SC", sans-serif;
     text-align: center;
 }
 
-.four {
-    padding: 5%;
+.eight h2,
+.eight p {
+    font-family: "Amatic SC", sans-serif;
+    text-align: right;
 }
 
-.four {
+.eight {
+    padding: 5%;
     font-size: 1.4rem;
 }
 
+.seven {
+    padding: 5%;
+    font-size: 1.4rem;
+}
 
-.two img {
+.five {
+    padding: 5%;
+    font-size: 1.4rem;
+}
+
+.four {
+    padding: 5%;
+    font-size: 1.4rem;
+}
+
+.fLtRight {
     width: 25%;
     float: right;
 }
 
-.one img {
+.fLtLeft {
     width: 25%;
     float: left
+}
+
+.iMgMiddle {
+    width: 25%;
+    background-position-y: bottom;
 }
 
 
@@ -145,7 +171,7 @@ a {
 
 /*------- Responsive images ------------ */
 img {
-    width: 100%;
+    width: 25%;
 }
 
 /*=================================
@@ -162,7 +188,7 @@ img {
 
 .two {
     min-height: 250px;
-    background-image: linear-gradient(#9dffaa, #002);
+    background-image: linear-gradient(#ff0,#9dffaa, #002);
 }
 
 .three {
@@ -176,12 +202,12 @@ img {
 
 .four {
     min-height: 250px;
-    background-image: linear-gradient(#0054ba, #ffc0cb);
+    background-image: linear-gradient(#000, #BF3100, #ff9505, #ff0);
 }
 
 .five {
     min-height: 250px;
-    background-image: linear-gradient(#cb3189, #512da8);
+    background-image: linear-gradient(#ff0,#9dffaa, #002);
 }
 
 .six {
@@ -195,8 +221,13 @@ img {
 
 .seven {
     min-height: 250px;
-    background-color: #192227;
+    background-image: linear-gradient(#000, #BF3100, #ff9505, #ff0);
 }
+
+.eight {
+    background-image: linear-gradient(#000, #BF3100, #ff9505,#ff0,#9dffaa, #002);
+}
+
 
 /*----- Tablet Media Query -------*/
 @media screen and (min-width: 769px) {
@@ -302,6 +333,10 @@ img {
 
     .seven {
         grid-column: 2 / 4;
+    }
+
+    .eight {
+        grid-column: 1 / 4;
     }
 }
 /*------- End Desktop Media Query-------*/
