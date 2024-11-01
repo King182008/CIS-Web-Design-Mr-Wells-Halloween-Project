@@ -150,24 +150,21 @@ a {
 }
 
 .fLtRight {
-    width: 25%;
+    width: 20%;
     float: right;
 }
 
 .fLtLeft {
-    width: 25%;
-    float: left
+    width: 20%;
+    float: left;
 }
 
-.iMgMiddle {
-    width: 25%;
-    background-position-y: bottom;
+p:first-child {
+    font-family: fantasy;
+
 }
 
 
-
-
-    
 
 /*------- Responsive images ------------ */
 img {
@@ -228,6 +225,45 @@ img {
     background-image: linear-gradient(#000, #BF3100, #ff9505,#ff0,#9dffaa, #002);
 }
 
+.nine {
+    background-image: linear-gradient(#9dffaa, #002);
+}
+
+.ten {
+    background-image: url(../images/beth-teutschmann-ed5KySP1tfQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.eleven {
+    background-image: url(../images/nathan-dumlao-rEOpo4kmUzU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.twelve {
+    background-image: url(../images/nicolas-picard--lp8sTmF9HA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+
+.text-box {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 2px solid ;
+    box-shadow: 20px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    text-align: center;
+    color: purple;
+}
+
 
 /*----- Tablet Media Query -------*/
 @media screen and (min-width: 769px) {
@@ -286,8 +322,26 @@ img {
     .seven {
         grid-column: 2/3;
     }
+
+    .eight {
+        grid-column: 1/3;
+    }
+
+    .nine {
+        grid-column: 1/3;
+    }    
     
-    
+    .ten {
+        grid-column: 1/3;
+    }
+
+    .eleven {
+        grid-column: 1/3;
+    }
+
+    .twelve {
+        grid-column: 1/3;
+    }
 
 } 
 
@@ -338,6 +392,26 @@ img {
     .eight {
         grid-column: 1 / 4;
     }
+
+    .nine {
+        grid-column: 1 / 4;
+    }
+
+    .ten {
+        grid-column: 1 / 4;
+        grid-row: 1 / 6;
+    }
+
+    .eleven {
+        grid-column: 1 / 4;
+        grid-row: 6 / 11;
+    }
+
+    .twelve {
+        grid-column: 1 / 4;
+        grid-row: 11 / 16;
+    }
+
 }
 /*------- End Desktop Media Query-------*/
 
